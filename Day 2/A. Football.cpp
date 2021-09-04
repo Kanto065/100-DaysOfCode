@@ -6,7 +6,6 @@ int main(){
     string s;
     int zero=1, one=1;
     cin>>s;
-    //sort(s.begin(),s.end());
     for(int i=0; i<s.length(); i++){
         if(s[i]=='0'&&s[i+1]=='0'){
             zero++;
@@ -42,7 +41,5 @@ int main(){
     }
     else
         cout<<"NO";
-
-    cout<<zero<<" "<<one;
 
 }
