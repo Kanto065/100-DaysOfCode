@@ -10,7 +10,7 @@ int main(){
         }
         else{
             s2+='.';
-            s2+=towlower(s[i]);
+            s2+=toupper(s[i]);
         }
     }
     cout<<s2<<endl;
